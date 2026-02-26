@@ -25,7 +25,7 @@ const ServiceDetail = ({ selectedService, servicesData, navigateTo }) => {
                     <div className="mission-card">
                         <h2>{data.desc}</h2>
                         <p style={{ marginTop: '20px' }}>{data.longDesc}</p>
-                        <p>ILITE GROUP INTERNATIONAL ensures that every digital solution we deliver is at the forefront of technological innovation and aesthetic excellence. We partner with our clients to transform their vision into a sophisticated digital reality.</p>
+                        <p><b>ILITE GROUP INTERNATIONAL</b> ensures that every digital solution we deliver is at the forefront of technological innovation and aesthetic excellence. We partner with our clients to transform their vision into a sophisticated digital reality.</p>
                     </div>
                 </div>
             </section>

@@ -1,5 +1,6 @@
 import flyhiiLogo from '../Screenshot (968).png';
 import makLogo from '../Screenshot (970).png';
+import sciengaLogo from '../Screenshot (993).png';
 
 const Clients = ({ navigateTo }) => {
     return (
@@ -40,7 +41,7 @@ const Clients = ({ navigateTo }) => {
                         </div>
                         <div className="client-card" style={{ cursor: 'pointer' }} onClick={() => window.open('https://SciengaSummits.com', '_blank')}>
                             <div className="client-logo-wrap">
-                                <img src="https://images.unsplash.com/photo-1540575861501-7cf05a4b125a?auto=format&fit=crop&w=600&q=80" alt="Scienga Summits" />
+                                <img src={sciengaLogo} alt="Scienga Summits" />
                             </div>
                             <div className="client-info">
                                 <h4>Scienga Summits</h4>

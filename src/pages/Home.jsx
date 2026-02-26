@@ -1,6 +1,7 @@
 import React from 'react';
 import flyhiiLogo from '../Screenshot (968).png';
 import makLogo from '../Screenshot (970).png';
+import sciengaLogo from '../Screenshot (993).png';
 
 const Home = ({ navigateTo, clientSlide, setClientSlide, activeTab, setActiveTab }) => {
     return (
@@ -22,11 +23,11 @@ const Home = ({ navigateTo, clientSlide, setClientSlide, activeTab, setActiveTab
                 </div>
 
                 <div className="container hero-content">
-                    <div className="welcome-text">REDEFINING THE LORE OF TECHNOLOGY</div>
-                    <h1 className="main-headline">
-                        COMMIT TO <br />
-                        PERFECTION.
+                    <h1 className="hero-logo-text">
+                        ILITE
+                        <span className="hero-subtitle">INTERNATIONAL GROUP</span>
                     </h1>
+                    <div className="hero-tagline">A ROYAL ALLIANCE OF INNOVATION</div>
                     <a href="#about" className="btn-discover">EXPLORE OUR LORE</a>
                 </div>
             </section>
@@ -92,7 +93,7 @@ const Home = ({ navigateTo, clientSlide, setClientSlide, activeTab, setActiveTab
                             <h2>LEADERS IN THE <br /> FOURTH INDUSTRIAL <br /> REVOLUTION .</h2>
                             <h3>TRANSFORMING COMPLEX BUSINESS CHALLENGES INTO SEAMLESS DIGITAL EXPERIENCES.</h3>
                             <p>
-                                ILITE GROUP INTERNATIONAL transcends traditional boundaries. We don't just provide services; we craft legacies. Our methodology integrates high-level technical precision with artistic intuition to ensure every venture we power sets a new global benchmark.
+                                <b>ILITE GROUP INTERNATIONAL</b> transcends traditional boundaries. We don't just provide services; we craft legacies. Our methodology integrates high-level technical precision with artistic intuition to ensure every venture we power sets a new global benchmark.
                             </p>
 
                             <div className="checklist-since-wrap">
@@ -205,7 +206,7 @@ const Home = ({ navigateTo, clientSlide, setClientSlide, activeTab, setActiveTab
                         </div>
                         <div className="client-card" style={{ cursor: 'pointer' }} onClick={() => window.open('https://SciengaSummits.com', '_blank')}>
                             <div className="client-logo-wrap">
-                                <img src="https://images.unsplash.com/photo-1540575861501-7cf05a4b125a?auto=format&fit=crop&w=600&q=80" alt="Scienga Summits" />
+                                <img src={sciengaLogo} alt="Scienga Summits" />
                             </div>
                             <div className="client-info">
                                 <h4>Scienga Summits</h4>

@@ -69,7 +69,7 @@ const Footer = ({ view, navigateTo }) => {
                     </div>
 
                     <div className="footer-bottom">
-                        <p>© copyright 2025 ILITE INTERNATIONAL GROUP PVT LTD | A Royal Alliance of Innovation.</p>
+                        <p>© copyright 2025 <b>ILITE INTERNATIONAL GROUP PVT LTD</b> | A Royal Alliance of Innovation.</p>
                     </div>
                 </div>
             </footer>
