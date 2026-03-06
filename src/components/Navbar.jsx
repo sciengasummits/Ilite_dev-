@@ -8,7 +8,7 @@ const Navbar = ({ view, navigateTo, navigateToService, menuOpen, setMenuOpen }) 
                 <nav>
                     <div className="logo-wrapper" style={{ cursor: 'pointer' }} onClick={(e) => navigateTo(e, 'home')}>
                         <img src={logo} alt="ILITE Logo" className="logo-img" style={{ width: 'auto', height: '90px' }} />
-                        <div className="logo-text">ILITE <span>GROUP INTERNATIONAL</span></div>
+                        <div className="logo-text">ILITE <span>INTERNATIONAL GROUP</span></div>
                     </div>
 
                     <div className="menu-toggle" onClick={() => setMenuOpen(!menuOpen)}>
