@@ -21,7 +21,7 @@ const Footer = ({ view, navigateTo }) => {
                         <div className="footer-col">
                             <div className="footer-logo-wrap" style={{ display: 'flex', alignItems: 'center', gap: '15px', marginBottom: '30px' }}>
                                 <img src={logo} alt="ILITE Logo" className="logo-img" style={{ width: 'auto', height: '80px' }} />
-                                <div className="logo-text">ILITE <span>GROUP INTERNATIONAL</span></div>
+                                <div className="logo-text">ILITE <span>INTERNATIONAL GROUP</span></div>
                             </div>
                             <p>"Architecting the Global Lore of Technology."</p>
                             <div className="footer-socials">
