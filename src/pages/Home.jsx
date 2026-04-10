@@ -24,8 +24,8 @@ const Home = ({ navigateTo, clientSlide, setClientSlide, activeTab, setActiveTab
 
                 <div className="container hero-content">
                     <h1 className="hero-logo-text">
-                        ILITE
-                        <span className="hero-subtitle">INTERNATIONAL GROUP</span>
+                        CO-LINKED
+                        <span className="hero-subtitle">GROUP PRIVATE LIMITED</span>
                     </h1>
                     <div className="hero-tagline">A ROYAL ALLIANCE OF INNOVATION</div>
                     <a href="#about" className="btn-discover">EXPLORE OUR LORE</a>
@@ -93,7 +93,7 @@ const Home = ({ navigateTo, clientSlide, setClientSlide, activeTab, setActiveTab
                             <h2>LEADERS IN THE <br /> FOURTH INDUSTRIAL <br /> REVOLUTION .</h2>
                             <h3>TRANSFORMING COMPLEX BUSINESS CHALLENGES INTO SEAMLESS DIGITAL EXPERIENCES.</h3>
                             <p>
-                                <b>ILITE GROUP INTERNATIONAL</b> transcends traditional boundaries. We don't just provide services; we craft legacies. Our methodology integrates high-level technical precision with artistic intuition to ensure every venture we power sets a new global benchmark.
+                                <b>CO-LINKED GROUP PRIVATE LIMITED</b> transcends traditional boundaries. We don't just provide services; we craft legacies. Our methodology integrates high-level technical precision with artistic intuition to ensure every venture we power sets a new global benchmark.
                             </p>
 
                             <div className="checklist-since-wrap">

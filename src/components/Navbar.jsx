@@ -1,5 +1,5 @@
 import React from 'react';
-import logo from '../image.png';
+import logo from '../Royal alliance logo design.png';
 
 const Navbar = ({ view, navigateTo, navigateToService, menuOpen, setMenuOpen }) => {
     return (
@@ -7,8 +7,8 @@ const Navbar = ({ view, navigateTo, navigateToService, menuOpen, setMenuOpen }) 
             <div className="container">
                 <nav>
                     <div className="logo-wrapper" style={{ cursor: 'pointer' }} onClick={(e) => navigateTo(e, 'home')}>
-                        <img src={logo} alt="ILITE Logo" className="logo-img" style={{ width: 'auto', height: '90px' }} />
-                        <div className="logo-text">ILITE <span>INTERNATIONAL GROUP</span></div>
+                        <img src={logo} alt="CO-LINKED GROUP Logo" className="logo-img" style={{ width: 'auto', height: '90px' }} />
+                        <div className="logo-text">CO-LINKED <span>GROUP PRIVATE LIMITED</span></div>
                     </div>
 
                     <div className="menu-toggle" onClick={() => setMenuOpen(!menuOpen)}>

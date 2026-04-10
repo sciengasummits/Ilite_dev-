@@ -64,14 +64,14 @@ header nav {
 
 .logo-text {
     font-family: 'Inter', sans-serif;
-    /* Using standard Inter for a cleaner "bold only" feel */
-    font-size: 32px;
+    /* Adjusted for longer brand name */
+    font-size: 28px;
     font-weight: 800;
     /* Extra Bold */
     color: var(--secondary-color);
     /* Strong Navy */
     text-transform: uppercase;
-    line-height: 1;
+    line-height: 1.2;
 }
 
 .logo-text span {
@@ -266,22 +266,22 @@ header nav {
 
 .hero-logo-text {
     font-family: 'Inter', sans-serif;
-    font-size: 190px;
+    font-size: 100px;
     /* Even bigger for maximum impact */
     font-weight: 900;
     color: #fff;
-    line-height: 0.75;
+    line-height: 0.85;
     margin-bottom: 20px;
     text-transform: uppercase;
-    letter-spacing: -6px;
+    letter-spacing: -2px;
     text-shadow: 0 10px 40px rgba(0, 0, 0, 0.4);
 }
 
 .hero-subtitle {
     display: block;
-    font-size: 45px;
+    font-size: 28px;
     font-weight: 700;
-    letter-spacing: 12px;
+    letter-spacing: 6px;
     color: var(--primary-color);
     margin-top: 10px;
 }

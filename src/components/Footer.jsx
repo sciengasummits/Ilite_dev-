@@ -1,5 +1,5 @@
 import React from 'react';
-import logo from '../image.png';
+import logo from '../Royal alliance logo design.png';
 
 const Footer = ({ view, navigateTo }) => {
     return (
@@ -20,8 +20,8 @@ const Footer = ({ view, navigateTo }) => {
                     <div className="footer-main-grid">
                         <div className="footer-col">
                             <div className="footer-logo-wrap" style={{ display: 'flex', alignItems: 'center', gap: '15px', marginBottom: '30px' }}>
-                                <img src={logo} alt="ILITE Logo" className="logo-img" style={{ width: 'auto', height: '80px' }} />
-                                <div className="logo-text">ILITE <span>INTERNATIONAL GROUP</span></div>
+                                <img src={logo} alt="CO-LINKED GROUP Logo" className="logo-img" style={{ width: 'auto', height: '80px' }} />
+                                <div className="logo-text">CO-LINKED <span>GROUP PRIVATE LIMITED</span></div>
                             </div>
                             <p>"Architecting the Global Lore of Technology."</p>
                             <div className="footer-socials">
@@ -52,9 +52,9 @@ const Footer = ({ view, navigateTo }) => {
                         </div>
 
                         <div className="footer-col contact-info-list" style={{ marginTop: '50px' }}>
-                            <p>ILITE HQ: Megha Hills, Madhapur, <br />Hyderabad, India 500081</p>
+                            <p>CO-LINKED GROUP HQ: Megha Hills, Madhapur, <br />Hyderabad, India 500081</p>
                             <p>Inquiries: +91 8008188585</p>
-                            <p>Intelligence: connect@ilitegroup.com</p>
+                            <p>Intelligence: connect@colinkedgroup.com</p>
                         </div>
 
                         <div className="footer-col footer-form" style={{ marginTop: '50px' }}>
@@ -69,7 +69,7 @@ const Footer = ({ view, navigateTo }) => {
                     </div>
 
                     <div className="footer-bottom">
-                        <p>© copyright 2025 <b>ILITE INTERNATIONAL GROUP PVT LTD</b> | A Royal Alliance of Innovation.</p>
+                        <p>© copyright 2025 <b>CO-LINKED GROUP PRIVATE LIMITED </b> | A Royal Alliance of Innovation.</p>
                     </div>
                 </div>
             </footer>
