@@ -1130,6 +1130,8 @@ footer {
 
 .footer-logo-wrap .logo-text {
     color: #fff;
+    font-size: 22px;
+    white-space: nowrap;
 }
 
 .footer-socials {

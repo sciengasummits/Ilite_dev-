@@ -1,5 +1,5 @@
 import React from 'react';
-import logo from '../Royal alliance logo design.png';
+import logo from '../Co-Linked Group logo design (1).png';
 
 const Footer = ({ view, navigateTo }) => {
     return (
@@ -21,7 +21,7 @@ const Footer = ({ view, navigateTo }) => {
                         <div className="footer-col">
                             <div className="footer-logo-wrap" style={{ display: 'flex', alignItems: 'center', gap: '15px', marginBottom: '30px' }}>
                                 <img src={logo} alt="CO-LINKED GROUP Logo" className="logo-img" style={{ width: 'auto', height: '80px' }} />
-                                <div className="logo-text">CO-LINKED <span>GROUP PRIVATE LIMITED</span></div>
+                                <div className="logo-text">CO-LINKED <span>GROUP</span></div>
                             </div>
                             <p>"Architecting the Global Lore of Technology."</p>
                             <div className="footer-socials">

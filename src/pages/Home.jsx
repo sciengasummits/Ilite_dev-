@@ -24,8 +24,7 @@ const Home = ({ navigateTo, clientSlide, setClientSlide, activeTab, setActiveTab
 
                 <div className="container hero-content">
                     <h1 className="hero-logo-text">
-                        CO-LINKED
-                        <span className="hero-subtitle">GROUP PRIVATE LIMITED</span>
+                        CO-LINKED GROUP
                     </h1>
                     <div className="hero-tagline">A ROYAL ALLIANCE OF INNOVATION</div>
                     <a href="#about" className="btn-discover">EXPLORE OUR LORE</a>
