@@ -1,0 +1,29 @@
+{
+  "name": "Co-Linked Group",
+  "short_name": "Co-Linked",
+  "description": "Co-Linked Group Private Limited – A Royal Alliance of Innovation. Premium web design, app development & enterprise digital solutions from Hyderabad, India.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#0a0a0a",
+  "theme_color": "#c8a84b",
+  "orientation": "portrait-primary",
+  "scope": "/",
+  "lang": "en-IN",
+  "categories": ["business", "productivity", "utilities"],
+  "icons": [
+    {
+      "src": "/favicon.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ],
+  "screenshots": [
+    {
+      "src": "/og-image.png",
+      "sizes": "1200x630",
+      "type": "image/png",
+      "label": "Co-Linked Group Homepage"
+    }
+  ]
+}

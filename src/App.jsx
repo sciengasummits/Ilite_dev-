@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import Navbar from './components/Navbar';
 import Footer from './components/Footer';
+import SEO from './components/SEO';
 import Home from './pages/Home';
 import Clients from './pages/Clients';
 import Contact from './pages/Contact';
@@ -63,6 +64,8 @@ const App = () => {
 
     return (
         <div className={`app-wrapper ${menuOpen ? 'menu-is-open' : ''}`}>
+            {/* Dynamic SEO – updates title/meta/canonical on every view change */}
+            <SEO view={view} selectedService={selectedService} />
             <Navbar
                 view={view}
                 navigateTo={navigateTo}

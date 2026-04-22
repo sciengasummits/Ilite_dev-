@@ -1,0 +1,8 @@
+# _redirects – Co-Linked Group (https://www.colinkedgroup.com)
+
+# Force www canonical (non-www → www)
+http://colinkedgroup.com/*    https://www.colinkedgroup.com/:splat  301!
+https://colinkedgroup.com/*   https://www.colinkedgroup.com/:splat  301!
+
+# SPA Fallback – All unknown routes → index.html (React Router / hash nav)
+/*    /index.html   200

@@ -1,0 +1,13 @@
+# robots.txt – Co-Linked Group Private Limited
+# https://www.colinkedgroup.com/
+
+# Allow all crawlers full access
+User-agent: *
+Allow: /
+
+# Disallow backend/private paths (add if needed)
+# Disallow: /admin/
+# Disallow: /api/
+
+# Sitemap location
+Sitemap: https://www.colinkedgroup.com/sitemap.xml
