@@ -52,9 +52,9 @@ const Footer = ({ view, navigateTo }) => {
                         </div>
 
                         <div className="footer-col contact-info-list" style={{ marginTop: '50px' }}>
-                            <p>CO-LINKED GROUP HQ: Megha Hills, Madhapur, <br />Hyderabad, India 500081</p>
-                            <p>Inquiries: +91 8008188585</p>
-                            <p>Intelligence: connect@colinkedgroup.com</p>
+                            <p>CO-LINKED GROUP HQ: Capital Park, Madhapur, Hyderabad, India 500081</p>
+                            <p>Inquiries: +91 7842090097</p>
+                            <p>Intelligence: contact@colinkedgroup.org</p>
                         </div>
 
                         <div className="footer-col footer-form" style={{ marginTop: '50px' }}>

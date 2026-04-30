@@ -30,7 +30,7 @@ const PAGE_META = {
     contact: {
         title: 'Contact Us | Co-Linked Group – Hyderabad, India',
         description:
-            'Get in touch with Co-Linked Group Private Limited. Visit us at Megha Hills, Madhapur, Hyderabad or call +91 8008188585. Let\'s pioneer your next digital breakthrough.',
+            'Get in touch with Co-Linked Group Private Limited. Visit us at Capital Park, Hyderabad or call +91 7842090097. Let\'s pioneer your next digital breakthrough.',
         keywords:
             'contact Co-Linked Group, web design Hyderabad contact, digital agency contact India, colinkedgroup.com contact',
         canonical: `${BASE_URL}/#contact`,
